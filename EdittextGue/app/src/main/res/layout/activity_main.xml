@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:clipChildren="false"
+    tools:context=".MainActivity">
+
+    <com.fullpagedeveloper.edittextgue.EditTextGue
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:digits="1234567890"
+        android:inputType="number"
+        android:maxLength="4"
+        android:textColor="@android:color/black"
+        android:textIsSelectable="false"
+        android:textSize="50sp"
+        android:background="@drawable/ic_bg_input_number" />
+
+</LinearLayout>

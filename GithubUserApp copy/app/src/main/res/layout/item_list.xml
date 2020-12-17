@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:id="@+id/root"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageView_Avatar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:cropToPadding="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/user1" />
+
+    <TextView
+        android:id="@+id/textView_Name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView_Avatar"
+        app:layout_constraintTop_toTopOf="@+id/imageView_Avatar"
+        tools:text="Maulana West" />
+
+    <TextView
+        android:id="@+id/textView_userName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        tools:text="MaulanaWest"
+        app:layout_constraintEnd_toEndOf="@+id/textView_Name"
+        app:layout_constraintStart_toStartOf="@+id/textView_Name"
+        app:layout_constraintTop_toBottomOf="@+id/textView_Name" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

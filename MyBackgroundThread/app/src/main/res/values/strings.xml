@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyBackgroundThread</string>
+    <string name="status_pre">Status pre</string>
+    <string name="status_post">Status post</string>
+</resources>

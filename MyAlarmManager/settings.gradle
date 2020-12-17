@@ -1,0 +1,3 @@
+include ':Tes'
+include ':app'
+rootProject.name = "MyAlarmManager"
